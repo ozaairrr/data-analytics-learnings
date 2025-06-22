@@ -40,7 +40,9 @@ Conduct a **comparison analysis** of iPhone 15 sales and iPhone 14 sales using t
 
 ## 📊 Sample Visual
 
-![Dashboard Screenshot](.![image](https://github.com/user-attachments/assets/9546bad8-03fb-429e-8c9f-9be16d86a6f8))
+This dashboard compares iPhone 14 vs iPhone 15 sales across countries.
+
+![iPhone Sales Dashboard](https://github.com/ozaairrr/data-analytics-learnings/blob/15d72ca339990b2e4af5cb4e16ca4519bc725916/iphone-sales-variance-powerbi/iPhone-Dashboard.png?raw=true)
 
 ---
 
