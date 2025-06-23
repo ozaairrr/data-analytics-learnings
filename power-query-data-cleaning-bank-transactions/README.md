@@ -106,6 +106,12 @@ The dashboard presents a high-level view of merchant-wise debit activity, transa
 
 ---
 
+### 🎥 Video Preview
+
+[Click here to watch the demo](./screenshots/demo.mp4)
+
+---
+
 ## 🧠 Learning Outcome
 
 This assignment helped reinforce essential data transformation skills using Power Query, preparing raw and messy datasets into structured, analytical-ready formats using industry-standard techniques.
