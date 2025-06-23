@@ -102,7 +102,7 @@ The dashboard presents a high-level view of merchant-wise debit activity, transa
 - Transaction category breakdown (High vs Low)
 - Interactive merchant slicer
 
-![Dashboard Preview]([./iphone-sales-variance-powerbi/iPhone-Dashboard.png](https://github.com/ozaairrr/data-analytics-learnings/blob/3e799fa17f34d7409d6544fde65313b1dcb99723/power-query-data-cleaning-bank-transactions/Bank_Transactions_Dashboard.png))
+![Bank Transactions Dashboard](https://github.com/ozaairrr/data-analytics-learnings/blob/d1f29bbd50139d38d0eb96b8bc97e15cc95c594b/power-query-data-cleaning-bank-transactions/Bank_Transactions_Dashboard.png?raw=true)
 
 ---
 
