@@ -5,6 +5,10 @@
 
 This mini-project focuses on using **Power Query in Power BI** to clean, transform, and normalize real-world financial datasets. The goal was to practice data shaping, merging, filtering, and enrichment by cleaning inconsistencies and preparing the data model for reporting and analysis.
 
+> 📝 **NOTE:**  
+> Steps to explore the Power Query logic are provided below.  
+> You’ll find details on how to access the data tables and view all transformation steps used in this project.
+
 ---
 
 ## 📁 Datasets Used
