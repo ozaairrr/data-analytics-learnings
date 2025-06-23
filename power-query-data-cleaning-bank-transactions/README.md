@@ -111,6 +111,35 @@ The dashboard presents a high-level view of merchant-wise debit activity, transa
 [![Watch the Demo](https://img.youtube.com/vi/OmCB_r_nMgo/0.jpg)](https://youtu.be/OmCB_r_nMgo)
 
 ---
+### 🔍 How to Explore the Power Query Steps
+
+Once you download and open the `.pbix` file:
+
+1. **Open Power BI Desktop**.
+2. From the top menu, click on **Home > Transform Data**.
+3. This will open the **Power Query Editor**.
+4. In the left panel, you'll see all the loaded tables:
+   - `fact_transactions_2022`
+   - `fact_transactions_2023`
+   - `dim_merchants`
+   - `dim_date`
+   - `pivoted_dim_category`
+   - `fact_transactions` (appended + cleaned)
+
+5. For each table, click and review the **“Applied Steps”** pane on the right.
+   It includes transformations like:
+   - Column splitting
+   - Trimming whitespaces
+   - Removing duplicates
+   - Filtering out small transactions
+   - Merging & appending
+   - Creating conditional columns
+   - Grouping & aggregating
+
+> 🔧 These steps show exactly how the raw data was cleaned and structured using Power Query — without relying on DAX or visuals.
+
+
+---
 
 ## 🧠 Learning Outcome
 
