@@ -108,7 +108,7 @@ The dashboard presents a high-level view of merchant-wise debit activity, transa
 
 ### 🎥 Dashboard Preview
 
-[![Watch the Demo](https://img.youtube.com/vi/OmCB_r_nMgo/0.jpg)](https://youtu.be/OmCB_r_nMgo)
+[![Watch the Demo](https://img.youtube.com/vi/THMwVyUV-G0/0.jpg)](https://youtu.be/THMwVyUV-G0)
 
 ---
 ### 🔍 How to Explore the Power Query Steps
