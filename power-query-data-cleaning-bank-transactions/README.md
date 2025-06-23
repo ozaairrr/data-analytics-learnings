@@ -108,7 +108,7 @@ The dashboard presents a high-level view of merchant-wise debit activity, transa
 
 ### 🎥 Video Preview
 
-[Click here to watch the demo](./screenshots/demo.mp4)
+[Click here to watch the demo](https://github.com/ozaairrr/data-analytics-learnings/blob/aa8bbb37183eab745dfb676918d909ec1a7c157f/power-query-data-cleaning-bank-transactions/Dashboard_Preview_Video.mp4)
 
 ---
 
