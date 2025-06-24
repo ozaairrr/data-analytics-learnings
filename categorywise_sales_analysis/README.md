@@ -74,9 +74,9 @@ sales_by_category = CALCULATE(SUM(Sheet1[sale_amount]), ALLEXCEPT(Sheet1, Sheet1
 ```
 categorywise-sales-analysis/
 │
-├── apparels_dataset.xlsx
-├── Category_Sales_Dashboard.pbix
+├── apparels_datase.xlsx
+├── Dashboard_Me.pbix
 ├── README.md
-└── Dashboard_Screenshot.png
+└── sales_Dashboard.png
 ```
 
