@@ -1,13 +1,31 @@
-# Data Analyst Learning Projects
+# 📘 Data Analytics Learnings
 
-This repository documents my journey to becoming a skilled data analyst. It contains practical mini-projects and concept-based exercises focused on:
+This repository is a personal collection of my hands-on learning journey in the field of **Data Analytics**. It includes a variety of mini-projects, task-based assignments, and practice exercises completed using tools like:
 
-- Data cleaning and transformation
-- Power BI dashboard building
-- DAX vs Power Query logic
-- SQL querying and aggregations
-- Visualization best practices
+- 📊 Power BI  
+- ⚙️ Power Query  
+- 📐 DAX  
+- 🧹 Data Cleaning & Transformation etc
 
-Each folder contains a small project or hands-on task, including the dataset, formulas used, visuals, and key learnings.
+---
 
-This repo is meant to show progress, not perfection — from foundational topics to more advanced scenarios.
+## 📁 Folder Structure
+
+Each folder in this repository contains a specific topic, assignment, or practice task I’ve worked on. These tasks vary in complexity and are aimed at improving my understanding of key data analytics concepts.
+
+Some examples include:
+
+- Cleaning and transforming raw data  
+- Building interactive dashboards  
+- Writing DAX measures and calculated columns  
+- Creating visuals for business insights  
+
+---
+
+## 📝 Note
+
+> This is a **practice-oriented** repository. The visuals or dashboards included may not always reflect polished or production-ready work — the purpose is to showcase my **learning progress** and technical exploration.
+
+I’ll continue updating this repo as I grow my skills further. Stay tuned!
+
+---
