@@ -6,6 +6,12 @@ This repository is a personal collection of my hands-on learning journey in the 
 - ⚙️ Power Query  
 - 📐 DAX  
 - 🧹 Data Cleaning & Transformation etc
+  
+---
+
+## 📝 Note
+
+> This is a **practice-oriented** repository. The visuals or dashboards included may not always reflect polished or production-ready work — the purpose is to showcase my **learning progress** and technical exploration.
 
 ---
 
@@ -21,10 +27,6 @@ Some examples include:
 - Creating visuals for business insights  
 
 ---
-
-## 📝 Note
-
-> This is a **practice-oriented** repository. The visuals or dashboards included may not always reflect polished or production-ready work — the purpose is to showcase my **learning progress** and technical exploration.
 
 I’ll continue updating this repo as I grow my skills further. Stay tuned!
 
