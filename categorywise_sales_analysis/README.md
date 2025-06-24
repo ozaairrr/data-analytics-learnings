@@ -50,7 +50,7 @@ sales_by_category = CALCULATE(SUM(Sheet1[sale_amount]), ALLEXCEPT(Sheet1, Sheet1
 
 ## 🖼 Dashboard Preview
 
-![Dashboard Screenshot](https://github.com/ozaairrr/your-repo-name/blob/main/path-to-image.png)
+![Categorywise Sales Dashboard](https://github.com/ozaairrr/data-analytics-learnings/blob/c1fb75913ee1bac840b37ff1ae7d538fc6436feb/categorywise_sales_analysis/sales_Dashboard.png?raw=true)
 
 ---
 
