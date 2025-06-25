@@ -12,6 +12,7 @@ VAR res = CALCULATE(
 )
 RETURN
     res * fact_actuals_estimates[net_invoice_sales_amount]
+```
 
 Even though the formula was correct and working in my mentor's Power BI file, in my file it was returning blank values in all rows — around 16.7 lakh blank rows.
 
@@ -26,7 +27,7 @@ I started debugging:
 
 I also checked my mentor's version — it had the same formula, but it worked perfectly.
 
-🧪 Root Cause
+## 🧪 Root Cause
 After inspecting further:
 
 I checked the post_invoice_deductions table in Power BI:
@@ -39,21 +40,21 @@ This immediately raised a red flag.
 
 So I went back to MySQL where the data was originally imported and ran:
 
-sql
+```sql
 SELECT COUNT(*) FROM post_invoice_deductions;
 The count showed only 2.5 lakh records.
-
-✅ Fix Applied
+```
+## ✅ Fix Applied
 🔁 Re-imported the correct complete CSV into MySQL
 
 🔍 Ran a fresh COUNT(*) query — it now showed 20 lakh rows
 
 🔄 Refreshed the data in Power BI
 
-🎉 Result:
+## 🎉 Result:
 The DAX measure started working — returning correct non-blank values!
 
-📘 Key Learnings
+## 📘 Key Learnings
 ⚠️ Don't always blame DAX. Blank values can result from missing or incomplete data
 
 📉 LOOKUPVALUE() returns blank if even one match condition fails
