@@ -45,13 +45,14 @@ SELECT COUNT(*) FROM post_invoice_deductions;
 The count showed only 2.5 lakh records.
 ```
 ## ✅ Fix Applied
-> Re-imported the correct complete CSV into MySQL
-> Ran a fresh COUNT(*) query — it now showed 20 lakh rows
+- Re-imported the correct complete CSV into MySQL
 
-> Refreshed the data in Power BI
+- Ran a fresh COUNT(*) query — it now showed 20 lakh rows
+
+- Refreshed the data in Power BI
 
 ## 🎉 Result:
-The DAX measure started working — returning correct non-blank values!
+> The DAX measure started working — returning correct non-blank values!
 
 ## 📘 Key Learnings
 ⚠️ Don’t always blame DAX. Blank values can result from missing or incomplete data.
