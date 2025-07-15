@@ -1,7 +1,8 @@
 ## 🛠️ Debugging Journal Entry: P&L Net Profit Mismatch – Data Model Issue
 
-### 📅 Date: July 15, 2025  
-### 📁 Module: Finance View (Power BI)
+> 📅 Date: July 15, 2025  
+
+> 📁 Module: Finance View (Power BI)
 
 ### ❓ Problem:
 Noticed a mismatch in **Net Profit %** between my dashboard and the benchmark version:
