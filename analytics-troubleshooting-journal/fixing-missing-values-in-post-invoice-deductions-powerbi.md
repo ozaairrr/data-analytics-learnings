@@ -21,11 +21,11 @@ Even though the formula was correct and working in my mentor's Power BI file, in
 
 I started debugging:
 
-✅ The relationships between the fact and dimension tables were set up correctly  
-✅ DAX syntax was valid  
-✅ Tried using slicers and filters on different columns (like customer, product, date) to see if the `post_invoice_deductions_amount` measure would react — it didn’t  
-✅ Verified column-level data for the joined tables — everything seemed aligned  
-❌ But the `post_invoice_deductions_amount` column still showed blanks
+- The relationships between the fact and dimension tables were set up correctly  
+- DAX syntax was valid  
+- Tried using slicers and filters on different columns (like customer, product, date) to see if the `post_invoice_deductions_amount` measure would react — it didn’t  
+- Verified column-level data for the joined tables — everything seemed aligned  
+- But the `post_invoice_deductions_amount` column still showed blanks
 
 I also checked my mentor's version — it had the **same formula**, but it worked perfectly. This confirmed that the issue was not with DAX syntax, but likely with the data itself.
 
