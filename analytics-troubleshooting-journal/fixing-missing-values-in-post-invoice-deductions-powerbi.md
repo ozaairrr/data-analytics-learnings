@@ -33,13 +33,10 @@ I also checked my mentor's version — it had the **same formula**, but it worke
 ## 🧪 Root Cause
 After inspecting further:
 
-I checked the post_invoice_deductions table in Power BI:
-
-My version: ~2.5 lakh rows
-
-Mentor's version: ~20 lakh rows ❗
-
-This immediately raised a red flag.
+- I checked the post_invoice_deductions table in Power BI:
+- My version: ~2.5 lakh rows
+- Mentor's version: ~20 lakh rows ❗
+- This immediately raised a red flag.
 
 So I went back to MySQL where the data was originally imported and ran:
 
@@ -48,11 +45,10 @@ SELECT COUNT(*) FROM post_invoice_deductions;
 The count showed only 2.5 lakh records.
 ```
 ## ✅ Fix Applied
-🔁 Re-imported the correct complete CSV into MySQL
+> Re-imported the correct complete CSV into MySQL
+> Ran a fresh COUNT(*) query — it now showed 20 lakh rows
 
-🔍 Ran a fresh COUNT(*) query — it now showed 20 lakh rows
-
-🔄 Refreshed the data in Power BI
+> Refreshed the data in Power BI
 
 ## 🎉 Result:
 The DAX measure started working — returning correct non-blank values!
