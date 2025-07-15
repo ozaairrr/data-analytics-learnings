@@ -7,7 +7,7 @@
 ### ❓ Problem:
 Noticed a mismatch in **Net Profit %** between my dashboard and the benchmark version:
 - My version: **-45%**
-- Mentor’s version: **-13%**
+- Reference version: **-13%**
 
 Also spotted differences in **Operational Expense $** and **row count**.
 
